@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/user/634a5bdb441c0826a1b5e678
+content-type: application/json
+{
+  "email": "idabob@gmail.com",
+  "firstname": "ida",
+  "minit": "",
+  "lastname": "fofana",
+  "role": "Admin"
+}
