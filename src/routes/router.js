@@ -9,8 +9,8 @@ const { createUser, getAllUsers, getOneUser, updateOne, deleteOne } =
 router.post('/user', createUser);
 router.get('/user',getAllUsers);
 router.get('/user/:id', getOneUser);
-router.get('/user/:id', updateOne);
-router.get('/user/:id', deleteOne);
+router.put('/user/:id', updateOne);
+router.delete('/user/:id', deleteOne)
 
 
 
