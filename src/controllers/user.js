@@ -19,7 +19,7 @@ const User = require('../models/user');
  const getAllUsers = async (req, res) => {
   try {
    const users = await User.find({});
- 
+
    return res.status(201).json({ data: users });
   } catch (error) {
    console.log(error);
@@ -87,5 +87,5 @@ module.exports = {
     getOneUser,
     updateOne,
     deleteOne
-};
+}
 

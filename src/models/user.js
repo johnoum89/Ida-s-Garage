@@ -31,7 +31,20 @@ const userSchema = new mongoose.Schema(
    type: String,
    enum: ['Admin', 'User'], 
    default: 'User'
- }
+ },
+
+ payment: [
+  {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'payment'
+  }
+]
+
+
+
+
+
+
  },
  { timestamps: true }
 )

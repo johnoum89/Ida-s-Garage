@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/user
+
+
+
+### payment
+GET  http://localhost:3001/api/payment HTTP/1.1
+content-type: application/json 
+
+{
+  "userId": "6378b7d24ec1560d390409f9"
+}

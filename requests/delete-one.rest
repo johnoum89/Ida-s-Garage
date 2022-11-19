@@ -1,1 +1,11 @@
-DELETE http://localhost:3001/api/user/6353f3c75ee0ad570fb0526
+DELETE http://localhost:3001/api/user/6353f3c75ee0ad570fb0526   
+
+### payment 
+DELETE  http://localhost:3001/api/payment/6378ca41f51862b8986f2118
+Content-type: application/json
+
+{
+  
+    "userId": "6378ca41f51862b8986f2118"
+}
+

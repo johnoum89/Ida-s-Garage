@@ -1,0 +1,21 @@
+PUT http://localhost:3001/api/user/634a5bdb441c0826a1b5e678
+content-type: application/json
+{
+  "email": "idabob@gmail.com",
+  "firstname": "ida",
+  "minit": "",
+  "lastname": "fofana",
+  "role": "Admin"
+}
+
+### payment
+PUT http://localhost:3001/api/payment/6378c68533fb755e1b10c0be
+content-type: application/json
+{
+  "description": "apple",
+  "qty": 3,
+  "price": 200,
+  "Total": 700,
+    "userId": "6378c68533fb755e1b10c0be"
+  }
+
