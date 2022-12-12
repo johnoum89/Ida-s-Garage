@@ -6,10 +6,12 @@ const user = require('../models/user');
 const createPayment = async (req, res) => { const content = req.body;
  const user = await User.findById(content.userId);
 
- console.log(user)
+ console.log('the user',user);
 
  try {
   const payment = await payment.create({user: content.userId,  ...content})
+
+  console.log('checking what is here', division);
 
   user .payment =user .payment.concat(payment._id)
   await user.save();

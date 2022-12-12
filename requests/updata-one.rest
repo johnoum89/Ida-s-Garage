@@ -11,6 +11,9 @@ content-type: application/json
 ### payment
 PUT http://localhost:3001/api/payment/6378c68533fb755e1b10c0be
 content-type: application/json
+
+
+
 {
   "description": "apple",
   "qty": 3,

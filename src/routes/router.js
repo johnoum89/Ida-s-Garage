@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
- const { createUser, getAllUsers, getOneUser, updateOne, deleteOne } = require('../controllers/user');
+ const { createUser, getAllUsers, getOneUser, updateOne, deleteOne } = 
+ require('../controllers/user');
 
- const { createPayment,getAllPayment,getOnePayment,updateOnePayment,deleteOnePayment} = require('../controllers/payment');
+ const { createPayment,getAllPayment,getOnePayment,updateOnePayment,deleteOnePayment} =
+  require('../controllers/payment');
 
 
 

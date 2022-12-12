@@ -2,16 +2,17 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json 
 
 {
-  "email": "osseh@gmail.com",
+  "email": "osses@gmail.com",
   "password": "wwwuyw",
-  "firstname": "osseh",
+  "firstname": "osses",
   "minit": "",
-  "lastname": "bah"
-}
-
+  "lastname": "baah"
+} 
 ###
 POST http://localhost:3001/api/payment HTTP/1.1
 content-type: application/json 
+
+
 
 {
   "description": "awa",
